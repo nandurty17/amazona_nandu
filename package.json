@@ -1,0 +1,26 @@
+{
+  "name": "amazona",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "To start the project, traverse to the fronted folder and perform the following steps:-\r 1) Install the node js stable version on your pc.\r 2) Open the windows powershell terminal, traverse inside fronend folder of the project and run the command:-\r     npm install",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandurty17/amazona_nandu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandurty17/amazona_nandu/issues"
+  },
+  "homepage": "https://github.com/nandurty17/amazona_nandu#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
